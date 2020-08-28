@@ -1,5 +1,5 @@
 # Dictionaries - data structure , mutable, {key2: value2, key1: value1}
-    # in java > Hashmap, Hashtable, Hashset >> hashing algorithm to store the key-value pairs
+# in java > Hashmap, Hashtable, Hashset >> hashing algorithm to store the key-value pairs
 # recap: List - data structure, mutable, [a, b]
 cars = ['lexus', 'bugatti', 'bmw', 'ferrari']
 # recap: Tuple - data structure, immutable, (a, b)
@@ -21,9 +21,9 @@ print(f"Next student is {student2['name']} with GPA = {student2['gpa']}")
 # Assigning the value
 student1['gpa'] = 3.7  # if key is existing this will reset the value, new gpa=3.7
 print(student1)
-student1['state'] = 'NY' # if key does not exist, then it will create new key-value pair
+student1['state'] = 'NY'  # if key does not exist, then it will create new key-value pair
 print(student1)
-print(sorted(student1)) # only sorted keys are printed as a list
+print(sorted(student1))  # only sorted keys are printed as a list
 
 del student1['state']
 print(student1)
